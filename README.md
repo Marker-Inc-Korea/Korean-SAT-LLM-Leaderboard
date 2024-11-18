@@ -27,6 +27,20 @@ models (LLMs) based on the highly reputable College Scholastic Ability Test (CSA
 Test how well your fine-tuned Korean LLM performs on a 10-year benchmark of the Korean CSAT and see what score it would
 achieve right now!
 
+### 🚨 Notice: 2025 SAT (1-Year) Model Performance Comparison Results
+
+The current benchmark has been completed using GPT-based models. Future performance evaluations for other models will be conducted as additional resources and funding become available.  
+Please note that the current grade thresholds are **estimated**, and they will be updated once the official thresholds are announced.
+
+|  Rank   |       Model       | Raw Score | Estimated Grade (as of 2025.11.18) |
+|:-------:|:-----------------:|:---------:|:-----------------------------------:|
+| 🥇1st   |   o1-Preview      |    97     |           Grade 1                  |
+| 🥈2nd   |    o1-mini        |    78     |           Grade 4                  |
+| 🥉3rd   |    gpt-4o         |    75     |           Grade 4                  |
+|  4th    |  gpt-4o-mini      |    59     |           Grade 5                  |
+|  5th    | gpt-3.5-turbo     |    16     |           Grade 8                  |
+
+
 ## 🎯 What is the Korean SAT LLM Leaderboard?
 
 The Korean SAT LLM leaderboard is a leaderboard benchmarking 10 years of Korean CSAT (College Scholastic Ability Test)
