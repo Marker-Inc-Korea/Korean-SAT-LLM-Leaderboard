@@ -4,6 +4,10 @@
 궁금한 모델을 Submit하기전에 얼마정도의 성능이 나오는지 파악하고 싶다면 써보세요!
 
 ## 🏁 Quick Start
+0. 수능 벤치마크를 위해서 프로젝트를 git clone합니다.
+
+```git clone https://github.com/Marker-Inc-Korea/Korean-SAT-LLM-Leaderboard.git```
+
 1. `AutoRAG`를 설치합니다.
     ```bash
     pip install AutoRAG
