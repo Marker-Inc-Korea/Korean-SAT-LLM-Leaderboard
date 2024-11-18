@@ -4,6 +4,11 @@ I've created experimental code to help benchmark performance on the 2023 Korean 
 If you'd like to get a sense of how your model performs before submitting it, give this a try!
 
 ## 🏁 Quick Start
+
+0. Clone this project.
+
+```git clone https://github.com/Marker-Inc-Korea/Korean-SAT-LLM-Leaderboard.git```
+
 1. Install `AutoRAG`.
     ```bash
     pip install AutoRAG
