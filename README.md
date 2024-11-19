@@ -98,6 +98,14 @@ i.e) The gpt o1 model is scheduled for a benchmark update when the official vers
 
 ---
 
+## ⭐️ Purpose of the Korean SAT LLM Leaderboard Project
+
+1. **Sharing Benchmark Data**: Provide benchmarks that allow for the comparison of human performance and LLM performance.
+2. **Reliable Evaluation Dataset**: Utilize the highly authoritative benchmark dataset curated by KICE (Korea Institute for Curriculum and Evaluation) to assess Korean language proficiency.
+3. **Annual Updates with Leakage Prevention**: Update the CSAT Korean benchmark dataset annually to prevent data leakage.
+4. **Open-Source LLM Advancement**: Enable open-source LLMs, independent of any specific country or company, to achieve top-tier (1st-grade) performance on the Korean CSAT.
+
+
 ## 🏅 Submission Guidelines
 
 - If you prefer to keep your model’s performance private and not appear on the public leaderboard, feel free to leave a
