@@ -179,6 +179,7 @@ performance을 직접 비교할 수 있도록 구성되어 있습니다.
 - 본 수능 벤치마크 시스템은 [AutoRAG](https://github.com/Marker-Inc-Korea/AutoRAG)를 사용했습니다!
   (AutoRAG is an automatic RAG optimization tool that can also be used for LLM performance comparison and prompt
   engineering.)
+- 22년도 선택과목이 시행된 이래로 산출된 표준점수 공식은 [Crux 컨설팅](https://orbi.kr/profile/974081)의 [Crux table](https://suneungcalc.com/)을 활용했습니다.
 
 ## 📬 문의하기
 

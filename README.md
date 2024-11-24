@@ -194,6 +194,7 @@ compare human proficiency with the language capabilities of LLMs.
 - In the future, the leaderboard will be updated to reflect models submitted for all subjects, including Korean, English, Math, Science, and Social Studies, on the day of the CSAT.
 - This Korean-SAT benchmarking system powered by [AutoRAG](https://github.com/Marker-Inc-Korea/AutoRAG). AutoRAG is awesome!!
 (AutoRAG is an automatic RAG optimization tool that can also be used for LLM performance comparison and prompt engineering.)
+Since the implementation of elective subjects in 2022, the standard score formula has been derived using the [Crux Table](https://suneungcalc.com/) provided by [Crux Consulting](https://orbi.kr/profile/974081).
 
 ## 📬 Contact Us
 
