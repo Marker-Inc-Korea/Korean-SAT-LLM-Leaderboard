@@ -41,6 +41,11 @@ Please note that the current grade thresholds are **estimated**, and they will b
 |  5th    | gpt-3.5-turbo     |    16     |           Grade 8                  |
 
 
+cf)
+
+The incorrectly answered question on the o1-preview was question 8 (3 points) from the CSAT Korean section, a non-literary text question!  
+For those curious about the analysis of the incorrect question and a detailed explanation of the experiment, please refer to [this link](https://velog.io/@minsing-jin/o1-preview-2025-%EC%88%98%EB%8A%A5-%EA%B5%AD%EC%96%B4-97%EC%A0%90-%EB%8B%AC%EC%84%B1).
+
 ## 🎯 What is the Korean SAT LLM Leaderboard?
 
 The Korean SAT LLM leaderboard is a leaderboard benchmarking 10 years of Korean CSAT (College Scholastic Ability Test)
