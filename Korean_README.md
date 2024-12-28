@@ -24,22 +24,28 @@
 Art) 자리를 차지하세요!👑
 
 ### 🚨 Notice. 25 수능 (1개년) 모델 성능 비교 결과
+
 현재는 GPT 모델을 기반으로 벤치마크를 완료한 상태이며, 향후 추가 자원과 예산이 확보되면 다른 모델들의 성능 평가도 진행할 예정입니다.
 등급컷은 현재 추정 등급컷이므로 확정 등급컷이 나온다면 업데이트할 예정입니다.
 
-|  순위   |      모델명      | 원점수 | 추정 등급컷(2025.11.18기준) |
-|:-----:|:-------------:|:---:|:--------------------:|
-| 🥇1st |  o1-Preview   | 97  |         1등급          |
-| 🥈2nd |    o1-mini    | 78  |         4등급          |
-| 🥉3rd |    gpt-4o     | 75  |         4등급          |
-|  4th  |  gpt-4o-mini  | 59  |         5등급          |
-|  5th  | gpt-3.5-turbo | 16  |         8등급          |
-
+|  순위   |               모델명                | 표준점수 | 원점수합 | 공통과목점수 | 선택과목점수 | 추정 등급컷([CruxTable기준](https://suneungcalc.com/)) |
+|:-----:|:--------------------------------:|:----:|:----:|:------:|:------:|:-----------------------------------------------:|
+| 🥇1st |            o1-Preview            | 133  |  97  |   73   |   24   |                       1등급                       |
+| 🥈2nd |             o1-mini              | 115  |  78  |   57   |   21   |                       4등급                       |
+| 🥉3rd | gemini_2.0_experimental_advanced | 114  |  77  |   55   |   22   |                       4등급                       |
+| 🥉3rd |              gpt-4o              | 112  |  75  |   56   |   19   |                       4등급                       |
+|  4th  |    claude-3-5-sonnet-20241022    | 108  |  70  |   54   |   16   |                       4등급                       |
+|  6th  |           HyperClovaX            |  108  |  61  |   48   |   24   |                       4등급                       |
+|  7th  |           gpt-4o-mini            |  97  |  59  |   44   |   15   |                       5등급                       |
+|  8th  |          gpt-3.5-turbo           |  56  |  16  |   10   |   6    |                       9등급                       |
 
 cf)
-o1-preview가 틀린 문제는 수능 국어 8번(3점) 비문학문제였습니다!
-틀린문제 분석과, 실험에 대한 자세한 설명이 궁금하신분은 [여기](https://velog.io/@minsing-jin/o1-preview-2025-%EC%88%98%EB%8A%A5-%EA%B5%AD%EC%96%B4-97%EC%A0%90-%EB%8B%AC%EC%84%B1)를 참고해주세요!
+- o1-preview가 틀린 문제는 수능 국어 8번(3점) 비문학문제였습니다!
+틀린문제 분석과, 실험에 대한 자세한 설명이
+궁금하신분은 [여기](https://velog.io/@minsing-jin/o1-preview-2025-%EC%88%98%EB%8A%A5-%EA%B5%AD%EC%96%B4-97%EC%A0%90-%EB%8B%AC%EC%84%B1)
+를 참고해주세요!
 
+- o1-preview, HyperClovaX, Gemini_2.0_Experimental_Advanced는 chat ui환경에서 실험을 진행하였습니다.
 ---
 
 ## 💯 리더보드 순위
@@ -50,20 +56,21 @@ o1-preview가 틀린 문제는 수능 국어 8번(3점) 비문학문제였습니
 |    🥈 **2nd**    | Meta-Llama-3.1-405B-Instruct-Turbo |   meta-llama   |     113.8      |    3.8     |  77 (3)  |  87 (3)  |  69 (4)  |  70 (4)  |  65 (5)  |  68 (4)  |  78 (4)  |  80 (3)  |  87 (3)  |  68 (5)  | [Link](https://huggingface.co/meta-llama/Llama-3.1-405B-Instruct)                                                                      |
 |    🥉 **3rd**    |     Qwen2.5-72B-Instruct-Turbo     |      Qwen      |     105.8      |    4.6     |  61 (5)  |  78 (4)  |  52 (6)  |  60 (5)  |  60 (5)  |  64 (4)  |  74 (4)  |  70 (5)  |  74 (4)  |  79 (4)  | [Link](https://huggingface.co/Qwen/Qwen2.5-72B-Instruct)                                                                               |
 |       4th        | Meta-Llama-3.1-70B-Instruct-Turbo  |   meta-llama   |     103.7      |    4.8     |  50 (6)  |  72 (5)  |  73 (3)  |  61 (5)  |  79 (3)  |  51 (5)  |  58 (6)  |  66 (5)  |  71 (5)  |  70 (5)  | [Link](https://huggingface.co/meta-llama/Llama-3.1-70B-Instruct)                                                                       |
-|       5th        |         Qwen2-72B-Instruct         |      Qwen      |       98       |    5.2     |  53 (5)  |  57 (6)  |  59 (5)  |  45 (6)  |  57 (5)  |  56 (5)  |  76 (4)  |  69 (5)  |  58 (6)  |  63 (5)  | [Link](https://huggingface.co/Qwen)                                                                                                    |
-|       6th        |       gpt-4o-mini-2024-07-18       |     OpenAI     |      93.9      |    5.6     |  57 (5)  |  53 (6)  |  50 (6)  |  55 (5)  |  50 (6)  |  46 (6)  |  62 (5)  |  58 (6)  |  64 (5)  |  57 (6)  | [Link](https://openai.com/)                                                                                                            |
-|       7th        |           gemma-2-27b-it           |     Google     |       91       |    5.9     |  51 (6)  |  54 (6)  |  51 (6)  |  51 (6)  |  50 (6)  |  37 (7)  |  50 (6)  |  71 (4)  |  54 (6)  |  56 (6)  | [Link](https://huggingface.co/google/gemma-2-27b-it)                                                                                   |
-|       8th        |           solar-mini-ja            |    Upstage     |      85.9      |    6.2     |  46 (6)  |  58 (6)  |  43 (6)  |  41 (7)  |  46 (6)  |  51 (5)  |  49 (6)  |  48 (7)  |  40 (7)  |  52 (6)  | [Link](https://ko.upstage.ai/feed/company/event-recap-exploring-japan-ai-scene-with-upstage-solar-mini-ja)                             |
-|       9th        |             solar-mini             |    Upstage     |      85.5      |    6.4     |  33 (7)  |  57 (6)  |  48 (6)  |  42 (7)  |  46 (6)  |  50 (6)  |  43 (7)  |  55 (6)  |  42 (7)  |  56 (6)  | [Link](https://www.upstage.ai/feed/product/solarmini-performance-report)                                                               |
-|       10th       |    Mixtral-8x22B-Instruct-v0.1     |   MistralAI    |      83.4      |    6.6     |  40 (7)  |  44 (7)  |  47 (6)  |  31 (8)  |  38 (7)  |  35 (7)  |  65 (5)  |  57 (6)  |  50 (6)  |  44 (7)  | [Link](https://huggingface.co/mistralai/Mixtral-8x22B-Instruct-v0.1)                                                                   |
-|       11th       |          WizardLM-2-8x22B          |   Microsoft    |      83.3      |    6.6     |  37 (7)  |  56 (6)  |  47 (6)  |  30 (8)  |  52 (6)  |  29 (8)  |  51 (6)  |  47 (7)  |  51 (6)  |  53 (6)  | [Link](https://www.microsoft.com/en-us/research/publication/wizardlm-empowering-large-language-models-to-follow-complex-instructions/) |
-|       12th       |     Qwen2.5-7B-Instruct-Turbo      |      Qwen      |      80.3      |    6.8     |  40 (7)  |  40 (7)  |  39 (7)  |  35 (7)  |  35 (7)  |  35 (7)  |  58 (6)  |  53 (6)  |  44 (7)  |  42 (7)  | [Link](https://huggingface.co/Qwen/Qwen2.5-72B)                                                                                        |
-|       13th       |  Meta-Llama-3.1-8B-Instruct-Turbo  |   meta-llama   |      74.7      |    7.1     |  46 (6)  |  31 (8)  |  36 (7)  |  34 (7)  |  36 (7)  |  24 (8)  |  38 (7)  |  38 (7)  |  37 (7)  |  45 (7)  | [Link](https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct)                                                                        |
-|       14th       |         gpt-3.5-turbo-0125         |     OpenAI     |      68.7      |    7.7     |  29 (8)  |  39 (7)  |  26 (8)  |  17 (9)  |  36 (7)  |  24 (8)  |  38 (7)  |  25 (8)  |  45 (7)  |  27 (8)  | [Link](https://openai.com/)                                                                                                            |
-|       15th       |     Mixtral-8x7B-Instruct-v0.1     |   MistralAI    |      63.4      |    8.3     |  19 (9)  |  25 (8)  |  40 (7)  |  20 (9)  |  27 (8)  |  19 (9)  |  37 (7)  |  16 (9)  |  30 (8)  |  19 (9)  | [Link](https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1)                                                                    |
-|       16th       |           gemma-2-9b-it            |     Google     |      61.2      |    8.4     |  24 (8)  |  20 (9)  |  16 (9)  |  22 (9)  |  17 (9)  |  29 (8)  |  24 (8)  |  25 (8)  |  25 (8)  |  29 (8)  | [Link](https://huggingface.co/google/gemma-2-9b-it)                                                                                    |
-|       17th       |    Llama-3.2-3B-Instruct-Turbo     |   meta-llama   |      60.6      |    8.7     |  28 (8)  |  18 (9)  |  27 (8)  |  23 (9)  |  16 (9)  |  17 (9)  |  21 (9)  |  29 (8)  |  22 (9)  |  23 (9)  | [Link](https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct)                                                                        |
-|       18th       |      Mistral-7B-Instruct-v0.3      |   MistralAI    |      57.2      |    8.9     |  17 (9)  |  11 (9)  |  22 (9)  |  12 (9)  |  18 (9)  |  21 (9)  |  19 (9)  |  27 (8)  |  23 (9)  |  21 (9)  | [Link](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3)                                                                      |
+|       5th        |     claude-3-5-sonnet-20241022     |    Antropic    |     102.6      |     5      |  60 (5)  |  61 (6)  |  69 (4)  |  58 (5)  |  72 (4)  |  63 (4)  |  71 (5)  |  70 (5)  |  58 (6)  |  55 (6)  | [Link](https://www.anthropic.com/news/claude-3-5-sonnet)                                                                                                                                       |
+|       6th        |         Qwen2-72B-Instruct         |      Qwen      |       98       |    5.2     |  53 (5)  |  57 (6)  |  59 (5)  |  45 (6)  |  57 (5)  |  56 (5)  |  76 (4)  |  69 (5)  |  58 (6)  |  63 (5)  | [Link](https://huggingface.co/Qwen)                                                                                                    |
+|       7th        |       gpt-4o-mini-2024-07-18       |     OpenAI     |      93.9      |    5.6     |  57 (5)  |  53 (6)  |  50 (6)  |  55 (5)  |  50 (6)  |  46 (6)  |  62 (5)  |  58 (6)  |  64 (5)  |  57 (6)  | [Link](https://openai.com/)                                                                                                            |
+|       8th        |           gemma-2-27b-it           |     Google     |       91       |    5.9     |  51 (6)  |  54 (6)  |  51 (6)  |  51 (6)  |  50 (6)  |  37 (7)  |  50 (6)  |  71 (4)  |  54 (6)  |  56 (6)  | [Link](https://huggingface.co/google/gemma-2-27b-it)                                                                                   |
+|       9th        |           solar-mini-ja            |    Upstage     |      85.9      |    6.2     |  46 (6)  |  58 (6)  |  43 (6)  |  41 (7)  |  46 (6)  |  51 (5)  |  49 (6)  |  48 (7)  |  40 (7)  |  52 (6)  | [Link](https://ko.upstage.ai/feed/company/event-recap-exploring-japan-ai-scene-with-upstage-solar-mini-ja)                             |
+|       10th       |             solar-mini             |    Upstage     |      85.5      |    6.4     |  33 (7)  |  57 (6)  |  48 (6)  |  42 (7)  |  46 (6)  |  50 (6)  |  43 (7)  |  55 (6)  |  42 (7)  |  56 (6)  | [Link](https://www.upstage.ai/feed/product/solarmini-performance-report)                                                               |
+|       11th       |    Mixtral-8x22B-Instruct-v0.1     |   MistralAI    |      83.4      |    6.6     |  40 (7)  |  44 (7)  |  47 (6)  |  31 (8)  |  38 (7)  |  35 (7)  |  65 (5)  |  57 (6)  |  50 (6)  |  44 (7)  | [Link](https://huggingface.co/mistralai/Mixtral-8x22B-Instruct-v0.1)                                                                   |
+|       12th       |          WizardLM-2-8x22B          |   Microsoft    |      83.3      |    6.6     |  37 (7)  |  56 (6)  |  47 (6)  |  30 (8)  |  52 (6)  |  29 (8)  |  51 (6)  |  47 (7)  |  51 (6)  |  53 (6)  | [Link](https://www.microsoft.com/en-us/research/publication/wizardlm-empowering-large-language-models-to-follow-complex-instructions/) |
+|       13th       |     Qwen2.5-7B-Instruct-Turbo      |      Qwen      |      80.3      |    6.8     |  40 (7)  |  40 (7)  |  39 (7)  |  35 (7)  |  35 (7)  |  35 (7)  |  58 (6)  |  53 (6)  |  44 (7)  |  42 (7)  | [Link](https://huggingface.co/Qwen/Qwen2.5-72B)                                                                                        |
+|       14th       |  Meta-Llama-3.1-8B-Instruct-Turbo  |   meta-llama   |      74.7      |    7.1     |  46 (6)  |  31 (8)  |  36 (7)  |  34 (7)  |  36 (7)  |  24 (8)  |  38 (7)  |  38 (7)  |  37 (7)  |  45 (7)  | [Link](https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct)                                                                        |
+|       15th       |         gpt-3.5-turbo-0125         |     OpenAI     |      68.7      |    7.7     |  29 (8)  |  39 (7)  |  26 (8)  |  17 (9)  |  36 (7)  |  24 (8)  |  38 (7)  |  25 (8)  |  45 (7)  |  27 (8)  | [Link](https://openai.com/)                                                                                                            |
+|       16th       |     Mixtral-8x7B-Instruct-v0.1     |   MistralAI    |      63.4      |    8.3     |  19 (9)  |  25 (8)  |  40 (7)  |  20 (9)  |  27 (8)  |  19 (9)  |  37 (7)  |  16 (9)  |  30 (8)  |  19 (9)  | [Link](https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1)                                                                    |
+|       17th       |           gemma-2-9b-it            |     Google     |      61.2      |    8.4     |  24 (8)  |  20 (9)  |  16 (9)  |  22 (9)  |  17 (9)  |  29 (8)  |  24 (8)  |  25 (8)  |  25 (8)  |  29 (8)  | [Link](https://huggingface.co/google/gemma-2-9b-it)                                                                                    |
+|       18th       |    Llama-3.2-3B-Instruct-Turbo     |   meta-llama   |      60.6      |    8.7     |  28 (8)  |  18 (9)  |  27 (8)  |  23 (9)  |  16 (9)  |  17 (9)  |  21 (9)  |  29 (8)  |  22 (9)  |  23 (9)  | [Link](https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct)                                                                        |
+|       19th       |      Mistral-7B-Instruct-v0.3      |   MistralAI    |      57.2      |    8.9     |  17 (9)  |  11 (9)  |  22 (9)  |  12 (9)  |  18 (9)  |  21 (9)  |  19 (9)  |  27 (8)  |  23 (9)  |  21 (9)  | [Link](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3)                                                                      |
 
 - **Rank 기준**: 10개년 수능 표준점수들의 평균  <표준점수를 통해서 각 년도별 시험의 난이도를 점수에서 반영합니다.>
 - **Avg. std Score:** 표준점수 평균
@@ -94,6 +101,7 @@ i.e)
 performance을 직접 비교할 수 있도록 구성되어 있습니다.
 
 ## ⭐️ 수능 국어 LLM Leaderboard Project의 목적
+
 1. Human performance와 LLM performance를 비교할수 있는 벤치마크 정보공유
 2. 한국어 언어능력을 평가하는 한국의 가장 공신력 있는 KICE 평가원의 엄선된 벤치마크 데이터셋
 3. 해마다 업데이트 되는 새로운 수능국어 벤치마크 데이터셋으로 데이터 리키지 방지
@@ -183,7 +191,8 @@ performance을 직접 비교할 수 있도록 구성되어 있습니다.
 - 본 수능 벤치마크 시스템은 [AutoRAG](https://github.com/Marker-Inc-Korea/AutoRAG)를 사용했습니다!
   (AutoRAG is an automatic RAG optimization tool that can also be used for LLM performance comparison and prompt
   engineering.)
-- 22년도 선택과목이 시행된 이래로 산출된 표준점수 공식은 [Crux 컨설팅](https://orbi.kr/profile/974081)의 [Crux table](https://suneungcalc.com/)을 활용했습니다.
+- 22년도 선택과목이 시행된 이래로 산출된 표준점수 공식은 [Crux 컨설팅](https://orbi.kr/profile/974081)의 [Crux table](https://suneungcalc.com/)을
+  활용했습니다.
 
 ## 📬 문의하기
 
