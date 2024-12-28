@@ -33,20 +33,21 @@ Art) 자리를 차지하세요!👑
 | 🥇1st |            o1-Preview            | 133  |  97  |   73   |   24   |                       1등급                       |
 | 🥈2nd |             o1-mini              | 115  |  78  |   57   |   21   |                       4등급                       |
 | 🥉3rd | gemini_2.0_experimental_advanced | 114  |  77  |   55   |   22   |                       4등급                       |
-| 🥉3rd |              gpt-4o              | 112  |  75  |   56   |   19   |                       4등급                       |
-|  4th  |    claude-3-5-sonnet-20241022    | 108  |  70  |   54   |   16   |                       4등급                       |
-|  6th  |           HyperClovaX            |  108  |  61  |   48   |   24   |                       4등급                       |
+|  4th  |              gpt-4o              | 112  |  75  |   56   |   19   |                       4등급                       |
+|  5th  |    claude-3-5-sonnet-20241022    | 108  |  70  |   54   |   16   |                       4등급                       |
+|  6th  |           HyperClovaX            | 108  |  61  |   48   |   24   |                       4등급                       |
 |  7th  |           gpt-4o-mini            |  97  |  59  |   44   |   15   |                       5등급                       |
 |  8th  |          gpt-3.5-turbo           |  56  |  16  |   10   |   6    |                       9등급                       |
 
-
 cf)
+
 - o1-preview가 틀린 문제는 수능 국어 8번(3점) 비문학문제였습니다!
-틀린문제 분석과, 실험에 대한 자세한 설명이
-궁금하신분은 [여기](https://velog.io/@minsing-jin/o1-preview-2025-%EC%88%98%EB%8A%A5-%EA%B5%AD%EC%96%B4-97%EC%A0%90-%EB%8B%AC%EC%84%B1)
-를 참고해주세요!
+  틀린문제 분석과, 실험에 대한 자세한 설명이
+  궁금하신분은 [여기](https://velog.io/@minsing-jin/o1-preview-2025-%EC%88%98%EB%8A%A5-%EA%B5%AD%EC%96%B4-97%EC%A0%90-%EB%8B%AC%EC%84%B1)
+  를 참고해주세요!
 
 - o1-preview, HyperClovaX, Gemini_2.0_Experimental_Advanced는 chat ui환경에서 실험을 진행하였습니다.
+
 ---
 
 ## 💯 리더보드 순위
@@ -57,7 +58,7 @@ cf)
 |    🥈 **2nd**    | Meta-Llama-3.1-405B-Instruct-Turbo |   meta-llama   |     113.8      |    3.8     |  77 (3)  |  87 (3)  |  69 (4)  |  70 (4)  |  65 (5)  |  68 (4)  |  78 (4)  |  80 (3)  |  87 (3)  |  68 (5)  | [Link](https://huggingface.co/meta-llama/Llama-3.1-405B-Instruct)                                                                      |
 |    🥉 **3rd**    |     Qwen2.5-72B-Instruct-Turbo     |      Qwen      |     105.8      |    4.6     |  61 (5)  |  78 (4)  |  52 (6)  |  60 (5)  |  60 (5)  |  64 (4)  |  74 (4)  |  70 (5)  |  74 (4)  |  79 (4)  | [Link](https://huggingface.co/Qwen/Qwen2.5-72B-Instruct)                                                                               |
 |       4th        | Meta-Llama-3.1-70B-Instruct-Turbo  |   meta-llama   |     103.7      |    4.8     |  50 (6)  |  72 (5)  |  73 (3)  |  61 (5)  |  79 (3)  |  51 (5)  |  58 (6)  |  66 (5)  |  71 (5)  |  70 (5)  | [Link](https://huggingface.co/meta-llama/Llama-3.1-70B-Instruct)                                                                       |
-|       5th        |     claude-3-5-sonnet-20241022     |    Antropic    |     102.6      |     5      |  60 (5)  |  61 (6)  |  69 (4)  |  58 (5)  |  72 (4)  |  63 (4)  |  71 (5)  |  70 (5)  |  58 (6)  |  55 (6)  | [Link](https://www.anthropic.com/news/claude-3-5-sonnet)                                                                                                                                       |
+|       5th        |     claude-3-5-sonnet-20241022     |    Antropic    |     102.6      |     5      |  60 (5)  |  61 (6)  |  69 (4)  |  58 (5)  |  72 (4)  |  63 (4)  |  71 (5)  |  70 (5)  |  58 (6)  |  55 (6)  | [Link](https://www.anthropic.com/news/claude-3-5-sonnet)                                                                               |
 |       6th        |         Qwen2-72B-Instruct         |      Qwen      |       98       |    5.2     |  53 (5)  |  57 (6)  |  59 (5)  |  45 (6)  |  57 (5)  |  56 (5)  |  76 (4)  |  69 (5)  |  58 (6)  |  63 (5)  | [Link](https://huggingface.co/Qwen)                                                                                                    |
 |       7th        |       gpt-4o-mini-2024-07-18       |     OpenAI     |      93.9      |    5.6     |  57 (5)  |  53 (6)  |  50 (6)  |  55 (5)  |  50 (6)  |  46 (6)  |  62 (5)  |  58 (6)  |  64 (5)  |  57 (6)  | [Link](https://openai.com/)                                                                                                            |
 |       8th        |           gemma-2-27b-it           |     Google     |       91       |    5.9     |  51 (6)  |  54 (6)  |  51 (6)  |  51 (6)  |  50 (6)  |  37 (7)  |  50 (6)  |  71 (4)  |  54 (6)  |  56 (6)  | [Link](https://huggingface.co/google/gemma-2-27b-it)                                                                                   |
