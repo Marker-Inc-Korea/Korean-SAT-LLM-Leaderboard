@@ -42,14 +42,13 @@ are announced.
 |:------:|:--------------------------------:|:--------------:|:---------:|:--------------------:|:----------------------:|:--------------------------------------------------------------------:|
 | 🥇 1st |            o1-Preview            |      133       |    97     |          73          |           24           |                               Grade 1                                |
 | 🥈 2nd |             o1-mini              |      115       |    78     |          57          |           21           |                               Grade 4                                |
-| 🥉 3rd | gemini_2.0_experimental_advanced |      114       |    77     |          55          |           22           |                               Grade 4                                |
-|  4th   |              gpt-4o              |      112       |    75     |          56          |           19           |                               Grade 4                                |
-|  5th   |    claude-3-5-sonnet-20241022    |      108       |    70     |          54          |           16           |                               Grade 4                                |
-|  6th   |           HyperClovaX            |      108       |    61     |          48          |           24           |                               Grade 4                                |
-|  7th   |           gpt-4o-mini            |       97       |    59     |          44          |           15           |                               Grade 5                                |
-|  8th   |      claude-3-opus-20240229      |       91       |    53     |          35          |           18           |                               Grade 6                                |
-|  9th   |    claude-3-5-haiku-20241022     |       90       |    52     |          37          |           15           |                               Grade 6                                |
-|  10th  |          gpt-3.5-turbo           |       56       |    16     |          10          |           6            |                               Grade 9                                |
+| 🥉3rd  |              gpt-4o              |      112       |    75     |          56          |           19           |                               Grade 4                                |
+|  4th   |    claude-3-5-sonnet-20241022    |      108       |    70     |          54          |           16           |                               Grade 4                                |
+|  5th   |           HyperClovaX            |      108       |    61     |          48          |           24           |                               Grade 4                                |
+|  6th   |           gpt-4o-mini            |       97       |    59     |          44          |           15           |                               Grade 5                                |
+|  7th   |      claude-3-opus-20240229      |       91       |    53     |          35          |           18           |                               Grade 6                                |
+|  8th   |    claude-3-5-haiku-20241022     |       90       |    52     |          37          |           15           |                               Grade 6                                |
+|  9th   |          gpt-3.5-turbo           |       56       |    16     |          10          |           6            |                               Grade 9                                |
 
 cf)
 
