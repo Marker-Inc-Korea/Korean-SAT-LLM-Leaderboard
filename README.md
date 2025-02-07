@@ -31,6 +31,8 @@ models (LLMs) based on the highly reputable College Scholastic Ability Test (CSA
 Test how well your fine-tuned Korean LLM performs on a 10-year benchmark of the Korean CSAT and see what score it would
 achieve right now!
 
+cf) To prevent data leakage, this benchmark only includes models released before each year's CSAT (Suneung) on the leaderboard.
+
 ### 🚨 Notice: 2025 SAT (1-Year) Model Performance Comparison Results
 
 The current benchmark has been completed using GPT-based models. Future performance evaluations for other models will be
