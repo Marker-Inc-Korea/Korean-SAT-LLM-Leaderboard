@@ -31,7 +31,8 @@ models (LLMs) based on the highly reputable College Scholastic Ability Test (CSA
 Test how well your fine-tuned Korean LLM performs on a 10-year benchmark of the Korean CSAT and see what score it would
 achieve right now!
 
-cf) To prevent data leakage, this benchmark only includes models released before each year's CSAT (Suneung) on the leaderboard.
+cf) To prevent data leakage, this benchmark only includes models released before each year's CSAT (Suneung) on the
+leaderboard.
 
 ### 🚨 Notice: 2025 SAT (1-Year) Model Performance Comparison Results
 
@@ -40,17 +41,17 @@ conducted as additional resources and funding become available.
 Please note that the current grade thresholds are **estimated**, and they will be updated once the official thresholds
 are announced.
 
-|  Rank  |            Model Name            | Standard Score | Raw Score | Common Subject Score | Elective Subject Score | Estimated Grade Cut ([CruxTable Standard](https://suneungcalc.com/)) |
-|:------:|:--------------------------------:|:--------------:|:---------:|:--------------------:|:----------------------:|:--------------------------------------------------------------------:|
-| 🥇 1st |            o1-Preview            |      133       |    97     |          73          |           24           |                               Grade 1                                |
-| 🥈 2nd |             o1-mini              |      115       |    78     |          57          |           21           |                               Grade 4                                |
-| 🥉3rd  |              gpt-4o              |      112       |    75     |          56          |           19           |                               Grade 4                                |
-|  4th   |    claude-3-5-sonnet-20241022    |      108       |    70     |          54          |           16           |                               Grade 4                                |
-|  5th   |           HyperClovaX            |      108       |    61     |          48          |           24           |                               Grade 4                                |
-|  6th   |           gpt-4o-mini            |       97       |    59     |          44          |           15           |                               Grade 5                                |
-|  7th   |      claude-3-opus-20240229      |       91       |    53     |          35          |           18           |                               Grade 6                                |
-|  8th   |    claude-3-5-haiku-20241022     |       90       |    52     |          37          |           15           |                               Grade 6                                |
-|  9th   |          gpt-3.5-turbo           |       56       |    16     |          10          |           6            |                               Grade 9                                |
+|  Rank  |         Model Name         | Standard Score | Raw Score | Common Subject Score | Elective Subject Score | Estimated Grade Cut ([CruxTable Standard](https://suneungcalc.com/)) |
+|:------:|:--------------------------:|:--------------:|:---------:|:--------------------:|:----------------------:|:--------------------------------------------------------------------:|
+| 🥇 1st |         o1-Preview         |      133       |    97     |          73          |           24           |                               Grade 1                                |
+| 🥈 2nd |          o1-mini           |      115       |    78     |          57          |           21           |                               Grade 4                                |
+| 🥉3rd  |           gpt-4o           |      112       |    75     |          56          |           19           |                               Grade 4                                |
+|  4th   | claude-3-5-sonnet-20241022 |      108       |    70     |          54          |           16           |                               Grade 4                                |
+|  5th   |        HyperClovaX         |      108       |    61     |          48          |           24           |                               Grade 4                                |
+|  6th   |        gpt-4o-mini         |       97       |    59     |          44          |           15           |                               Grade 5                                |
+|  7th   |   claude-3-opus-20240229   |       91       |    53     |          35          |           18           |                               Grade 6                                |
+|  8th   | claude-3-5-haiku-20241022  |       90       |    52     |          37          |           15           |                               Grade 6                                |
+|  9th   |       gpt-3.5-turbo        |       56       |    16     |          10          |           6            |                               Grade 9                                |
 
 cf)
 
@@ -65,8 +66,8 @@ to [this link](https://velog.io/@minsing-jin/o1-preview-2025-%EC%88%98%EB%8A%A5-
 
 |            Model Name            | Standard Score | Raw Score | Common Subject Score | Elective Subject Score | Estimated Grade Cutoff ([CruxTable Standard](https://suneungcalc.com/)) |  
 |:--------------------------------:|:--------------:|:---------:|:--------------------:|:----------------------:|:-----------------------------------------------------------------------:|  
+|           deepseek r1            |      116       |    78     |          65          |           13           |                                 Grade 4                                 |
 | gemini_2.0_experimental_advanced |      114       |    77     |          55          |           22           |                                 Grade 4                                 |
-
 
 ## 🎯 What is the Korean SAT LLM Leaderboard?
 
