@@ -59,6 +59,14 @@ For those curious about the analysis of the incorrect question and a detailed ex
 refer
 to [this link](https://velog.io/@minsing-jin/o1-preview-2025-%EC%88%98%EB%8A%A5-%EA%B5%AD%EC%96%B4-97%EC%A0%90-%EB%8B%AC%EC%84%B1).
 
+- To prevent data leakage issues, models released after the CSAT (Suneung) are recorded separately as references rather
+  than being officially listed on the leaderboard.
+
+|            Model Name            | Standard Score | Raw Score | Common Subject Score | Elective Subject Score | Estimated Grade Cutoff ([CruxTable Standard](https://suneungcalc.com/)) |  
+|:--------------------------------:|:--------------:|:---------:|:--------------------:|:----------------------:|:-----------------------------------------------------------------------:|  
+| gemini_2.0_experimental_advanced |      114       |    77     |          55          |           22           |                                 Grade 4                                 |
+
+
 ## 🎯 What is the Korean SAT LLM Leaderboard?
 
 The Korean SAT LLM leaderboard is a leaderboard benchmarking 10 years of Korean CSAT (College Scholastic Ability Test)
