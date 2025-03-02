@@ -66,7 +66,7 @@ to [this link](https://velog.io/@minsing-jin/o1-preview-2025-%EC%88%98%EB%8A%A5-
 
 |            Model Name            | Standard Score | Raw Score | Common Subject Score | Elective Subject Score | Estimated Grade Cutoff ([CruxTable Standard](https://suneungcalc.com/)) |  
 |:--------------------------------:|:--------------:|:---------:|:--------------------:|:----------------------:|:-----------------------------------------------------------------------:|  
-|    gpt-4.5-preview-2025-02-27    |      124       |    86     |          68          |           18           |                                   3등급                                   |
+|    gpt-4.5-preview-2025-02-27    |      124       |    86     |          68          |           18           |                                 Grade 3                                 |
 |           deepseek r1            |      116       |    78     |          65          |           13           |                                 Grade 4                                 |
 | gemini_2.0_experimental_advanced |      114       |    77     |          55          |           22           |                                 Grade 4                                 |
 
