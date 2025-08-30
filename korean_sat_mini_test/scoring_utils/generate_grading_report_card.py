@@ -96,7 +96,7 @@ class ReportCard:
         return result
 
 
-def find_recent_expreiment_file():
+def find_recent_experiment_file():
     path = AUTORAG_PROJECT_DIR
     entries = os.listdir(path)
 
