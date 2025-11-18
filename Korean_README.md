@@ -37,30 +37,30 @@ cf) 본 벤치마크는 데이터 리키지를 방지하기 위해 해마다 진
 | 🥉3rd |                   o3-2025-04-16                    | 138  |  95  |   71   |   24   |                                               1등급                                               |
 |  4th  |     gpt-5.1-2025-11-13 <br/>(💡with reasoning)     | 137  |  94  |   70   |   24   |                                               1등급                                               |
 |  5th  |        grok-4-0709 <br/>(💡with reasoning)         | 134  |  91  |   67   |   24   |                                               1등급                                               |
-|  5th  |                    deepseek-r1                     | 130  |  87  |   63   |   24   |                                               1등급                                               |
-|  6th  |               gpt-5-mini-2025-08-07                | 127  |  84  |   63   |   21   |                                               2등급                                               |
-|  7th  |                 o4-mini-2025-04-16                 | 124  |  81  |   57   |   24   |                                               3등급                                               |
-|  8th  |     gpt-5.1-2025-11-13<br/>(without reasoning)     | 118  |  74  |   55   |   19   |                                               3등급                                               |
+|  6th  |                    deepseek-r1                     | 130  |  87  |   63   |   24   |                                               1등급                                               |
+|  7th  |               gpt-5-mini-2025-08-07                | 127  |  84  |   63   |   21   |                                               2등급                                               |
+|  8th  |                 o4-mini-2025-04-16                 | 124  |  81  |   57   |   24   |                                               3등급                                               |
+|  9th  |     gpt-5.1-2025-11-13<br/>(without reasoning)     | 118  |  74  |   55   |   19   |                                               3등급                                               |
 |  9th  |             grok-4-fast-non-reasoning              | 118  |  74  |   52   |   22   |                                               3등급                                               |
 | 10th  |                 gpt-4.1-2025-04-14                 | 117  |  73  |   56   |   17   |                                               3등급                                               |
-| 10th  |                  gemini-2.5-flash                  | 115  |  71  |   51   |   20   |                                               4등급                                               |
-|  8th  |       Llama-4-Maverick-17B-128E-Instruct-FP8       | 114  |  70  |   50   |   20   |                                               4등급                                               |
-|  8th  |                    gpt-oss-120b                    | 114  |  70  |   46   |   24   |                                               4등급                                               |
-|  8th  |          cogito-v2-preview-deepseek-671b           | 114  |  70  |   55   |   15   |                                               4등급                                               |
-|  9th  |           Qwen3-235B-A22B-Thinking-2507            | 113  |  69  |   49   |   20   |                                               4등급                                               |
-|  9th  |                    gpt-oss-20B                     | 112  |  68  |   50   |   18   |                                               4등급                                               |
-| 10th  |         Meta-Llama-3.1-405B-Instruct-Turbo         | 110  |  66  |   48   |   18   |                                               4등급                                               |
-| 10th  |         Qwen3-Coder-480B-A35B-Instruct-FP8         | 106  |  62  |   47   |   15   |                                               5등급                                               |
-| 11th  |               gpt-5-nano-2025-08-07                | 105  |  61  |   44   |   17   |                                               5등급                                               |
-| 11th  |                  Kimi-K2-Instruct                  | 104  |  60  |   48   |   12   |                                               5등급                                               |
-| 11th  |                    DeepSeek-V3                     | 105  |  61  |   46   |   15   |                                               5등급                                               |
-| 12th  |                 gpt-4o-2024-11-20                  | 102  |  58  |   44   |   14   |                                               5등급                                               |
-| 12th  |                   exaone_4.0_32b                   | 100  |  56  |   44   |   12   |                                               5등급                                               |
-| 12th  |                 SKT A.X-4.0-Light                  |  92  |  47  |   39   |   8    |                                               6등급                                               |
-| 13th  |                      qwen3-8B                      |  83  |  38  |   32   |   6    |                                               7등급                                               |
-| 13th  |                  gemma-3n-E4B-it                   |  79  |  34  |   21   |   13   |                                               7등급                                               |
-| 13th  |            Llama-3.2-3B-Instruct-Turbo             |  62  |  16  |   10   |   6    |                                               9등급                                               |
-| 13th  |                  Kimi-K2-Thinking                  |  60  |  14  |   8    |   6    |                                               9등급                                               |
+| 11th  |                  gemini-2.5-flash                  | 115  |  71  |   51   |   20   |                                               4등급                                               |
+| 12th  |       Llama-4-Maverick-17B-128E-Instruct-FP8       | 114  |  70  |   50   |   20   |                                               4등급                                               |
+| 12th  |                    gpt-oss-120b                    | 114  |  70  |   46   |   24   |                                               4등급                                               |
+| 12th  |          cogito-v2-preview-deepseek-671b           | 114  |  70  |   55   |   15   |                                               4등급                                               |
+| 13th  |           Qwen3-235B-A22B-Thinking-2507            | 113  |  69  |   49   |   20   |                                               4등급                                               |
+| 14th  |                    gpt-oss-20B                     | 112  |  68  |   50   |   18   |                                               4등급                                               |
+| 15th  |         Meta-Llama-3.1-405B-Instruct-Turbo         | 110  |  66  |   48   |   18   |                                               4등급                                               |
+| 16th  |         Qwen3-Coder-480B-A35B-Instruct-FP8         | 106  |  62  |   47   |   15   |                                               5등급                                               |
+| 17th  |               gpt-5-nano-2025-08-07                | 105  |  61  |   44   |   17   |                                               5등급                                               |
+| 17th  |                    DeepSeek-V3                     | 105  |  61  |   46   |   15   |                                               5등급                                               |
+| 18th  |                  Kimi-K2-Instruct                  | 104  |  60  |   48   |   12   |                                               5등급                                               |
+| 19th  |                 gpt-4o-2024-11-20                  | 102  |  58  |   44   |   14   |                                               5등급                                               |
+| 20th  |                   exaone_4.0_32b                   | 100  |  56  |   44   |   12   |                                               5등급                                               |
+| 21th  |                 SKT A.X-4.0-Light                  |  92  |  47  |   39   |   8    |                                               6등급                                               |
+| 22th  |                      qwen3-8B                      |  83  |  38  |   32   |   6    |                                               7등급                                               |
+| 23th  |                  gemma-3n-E4B-it                   |  79  |  34  |   21   |   13   |                                               7등급                                               |
+| 24th  |            Llama-3.2-3B-Instruct-Turbo             |  62  |  16  |   10   |   6    |                                               9등급                                               |
+| 15th  |                  Kimi-K2-Thinking                  |  60  |  14  |   8    |   6    |                                               9등급                                               |
 
 <details>
   <summary>25 수능 (1개년) 모델 성능 비교 결과</summary>
