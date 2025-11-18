@@ -60,7 +60,7 @@ cf) 본 벤치마크는 데이터 리키지를 방지하기 위해 해마다 진
 | 22th  |                      qwen3-8B                      |  83  |  38  |   32   |   6    |                                               7등급                                               |
 | 23th  |                  gemma-3n-E4B-it                   |  79  |  34  |   21   |   13   |                                               7등급                                               |
 | 24th  |            Llama-3.2-3B-Instruct-Turbo             |  62  |  16  |   10   |   6    |                                               9등급                                               |
-| 15th  |                  Kimi-K2-Thinking                  |  60  |  14  |   8    |   6    |                                               9등급                                               |
+| 25th  |                  Kimi-K2-Thinking                  |  60  |  14  |   8    |   6    |                                               9등급                                               |
 
 <details>
   <summary>25 수능 (1개년) 모델 성능 비교 결과</summary>
