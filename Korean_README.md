@@ -62,6 +62,7 @@ cf) 본 벤치마크는 데이터 리키지를 방지하기 위해 해마다 진
 | 23th  |            Llama-3.2-3B-Instruct-Turbo             |  62  |  16  |   10   |   6    |                                               9등급                                               |
 | 24th  |                  Kimi-K2-Thinking                  |  58  |  12  |   8    |   2    |                                               9등급                                               |
 
+
 <details>
   <summary>25 수능 (1개년) 모델 성능 비교 결과</summary>
   <div markdown="1">
