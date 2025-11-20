@@ -37,7 +37,7 @@ cf) 본 벤치마크는 데이터 리키지를 방지하기 위해 해마다 진
 | 🥈2nd |                   o3-2025-04-16                    | 140  |  97  |   73   |   24   |                                               1등급                                               |
 | 🥉3rd |     gpt-5.1-2025-11-13 <br/>(💡with reasoning)     | 139  |  96  |   72   |   24   |                                               1등급                                               |
 |  4th  |        grok-4-0709 <br/>(💡with reasoning)         | 136  |  93  |   69   |   24   |                                               1등급                                               |
-|  5th  |                    deepseek-r1                     | 132  |  89  |   65   |   24   |                                               1등급                                               |
+|  5th  |                 DeepSeek-V3.2-Exp                  | 132  |  89  |   65   |   24   |                                               1등급                                               |
 |  6th  |               gpt-5-mini-2025-08-07                | 129  |  86  |   65   |   21   |                                               2등급                                               |
 |  7th  |                 o4-mini-2025-04-16                 | 126  |  83  |   59   |   24   |                                               2등급                                               |
 |  8th  |             grok-4-fast-non-reasoning              | 119  |  76  |   54   |   22   |                                               3등급                                               |
@@ -51,7 +51,7 @@ cf) 본 벤치마크는 데이터 리키지를 방지하기 위해 해마다 진
 | 14th  |                    gpt-oss-20B                     | 112  |  68  |   50   |   18   |                                               4등급                                               |
 | 14th  |         Meta-Llama-3.1-405B-Instruct-Turbo         | 112  |  68  |   50   |   18   |                                               4등급                                               |
 | 15th  |         Qwen3-Coder-480B-A35B-Instruct-FP8         | 108  |  64  |   49   |   15   |                                               4등급                                               |
-| 16th  |                    DeepSeek-V3                     | 107  |  63  |   48   |   15   |                                               4등급                                               |
+| 16th  |           DeepSeek-V3 (without thinking)           | 107  |  63  |   48   |   15   |                                               4등급                                               |
 | 16th  |               gpt-5-nano-2025-08-07                | 107  |  63  |   46   |   17   |                                               4등급                                               |
 | 17th  |                  Kimi-K2-Instruct                  | 106  |  62  |   50   |   12   |                                               5등급                                               |
 | 18th  |                 gpt-4o-2024-11-20                  | 104  |  60  |   46   |   14   |                                               5등급                                               |
@@ -61,7 +61,6 @@ cf) 본 벤치마크는 데이터 리키지를 방지하기 위해 해마다 진
 | 22th  |                  gemma-3n-E4B-it                   |  79  |  34  |   21   |   13   |                                               7등급                                               |
 | 23th  |            Llama-3.2-3B-Instruct-Turbo             |  62  |  16  |   10   |   6    |                                               9등급                                               |
 | 24th  |                  Kimi-K2-Thinking                  |  58  |  12  |   8    |   2    |                                               9등급                                               |
-
 
 <details>
   <summary>25 수능 (1개년) 모델 성능 비교 결과</summary>
